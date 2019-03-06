@@ -10,3 +10,7 @@ Time points slowly regenerate while time freeze is inactive.
 * Maximum Timepoints
 * Recharge Rate
 * Drain Rate/Amount
+
+## ToDo:
+
+* Add more customization
