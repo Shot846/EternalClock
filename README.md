@@ -1,4 +1,4 @@
-# EternalClock
+# Eternal Clock
 ## A simple time stop mod for ZDoom
 
 I made this simple mod for myself.
