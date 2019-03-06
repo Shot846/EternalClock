@@ -1,0 +1,18 @@
+AddOptionMenu "OptionsMenu"
+{
+	StaticText " "
+	Submenu "Eternal Clock Options", "EternalClockOptions"
+}
+
+OptionMenu "EternalClockOptions" 
+{
+	Title "Eternal Clock Options"
+	
+	Option "Enable Clock Sounds", 	"ec_enablesound", "YesNo"
+	Option "Enable Screen Tint", "ec_enabletint", "YesNo"
+	StaticText ""
+	Slider "Maximum Time Points", "ec_maxtimepoints", 0, 1000, 100
+	Slider "Recharge Delay", "ec_rechargedelay", 0, 100, 4
+	Slider "Drain Amount", "ec_drainamount", 0, 10, 1
+	Slider "Drain Delay", "ec_draindelay", 0, 10, 2
+}

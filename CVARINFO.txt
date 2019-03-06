@@ -1,0 +1,6 @@
+server int ec_maxtimepoints = 100;
+server int ec_rechargedelay = 4;
+server int ec_draindelay = 2;
+server int ec_drainamount = 1;
+user bool ec_enablesound = true;
+user bool ec_enabletint = true;

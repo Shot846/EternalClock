@@ -1,0 +1,3 @@
+addkeysection "Eternal Clock" Faspons
+addmenukey "Trigger the Eternal Clock" eclocktrigger
+alias eclocktrigger "pukename EternalClockMechanism"

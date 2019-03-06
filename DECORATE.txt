@@ -1,0 +1,34 @@
+actor TimePoint: Inventory
+{
+    Inventory.MaxAmount 0x7FFFFFFF
+    +UNDROPPABLE
+    -INVBAR
+}
+
+actor TimeIsStopped: Inventory
+{
+    Inventory.MaxAmount 1
+    +UNDROPPABLE
+    -INVBAR
+}
+
+
+actor PowerTimeFreeze : PowerTimeFreezer
+{
+	Inventory.icon "TNT1A0"
+}
+
+actor TimeStop : PowerupGiver
+{
+	inventory.maxamount 0
+	+INVENTORY.AUTOACTIVATE
+	powerup.type "TimeFreeze"
+	powerup.duration 0x7FFFFFFD
+	states
+	{
+	Spawn:
+		TNT1 A -1
+		Stop
+	}
+}
+
